@@ -24,5 +24,5 @@ plt.ylabel("Coordenada Y")
 plt.legend(['Seno','Coseno'])
 
 #Colocamos el título del gráfico
-plt.title("Representacion de funciones")
+plt.title("Representacion de funciones seno y coseno")
 plt.show()
