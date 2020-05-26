@@ -17,8 +17,8 @@ for j in range(len(x_2)):
 plt.plot(x,y,'b',x_2,y_2,'y')
 
 #Colocamos las etiquetas de los ejes
-plt.xlabel("Coordenada X")
-plt.ylabel("Coordenada Y")
+plt.xlabel("Coor X")
+plt.ylabel("Coor Y")
 
 #Colocamos la leyenda
 plt.legend(['Seno','Coseno'])
