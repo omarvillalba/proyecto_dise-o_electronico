@@ -23,7 +23,7 @@ plt.ylabel("eje y")
 plt.legend(['Seno','Coseno'])
 
 
-plt.plot(x,y,'bo',x_2,y_2,'y-')
+plt.plot(x,y,'--',x_2,y_2,'*')
 
 plt.show()
 
