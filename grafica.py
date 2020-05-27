@@ -7,7 +7,7 @@ from matplotlib import pyplot as plt
 x = np.array(range(200))*0.1
 y = np.zeros(len(x))
 for i in range(len(x)):
-    y[i] = math.sin(x[i])
+    y[i] = math.sinh(x[i])
 
 # Generamos un segundo conjunto de datos para el gráfico
 x_2 = np.array(range(200))*0.1
@@ -31,8 +31,8 @@ for j in range(len(x_4)):
 plt.subplot(221)
 plt.xlabel("eje X")
 plt.ylabel("eje y") 
-plt.legend(['Seno'])
-plt.title("Funcion seno") 
+plt.legend(['Seno hiperbolico'])
+plt.title("Funcion seno hiperbolico") 
 plt.plot(x,y)
 
 plt.subplot(222)
