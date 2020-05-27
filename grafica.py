@@ -22,14 +22,14 @@ plt.xlabel("eje X")
 plt.ylabel("eje y") 
 plt.legend(['Seno'])
 plt.title("Funcion seno") 
-plt.plot(x,y,'--')
+plt.plot(x,y)
 
 plt.subplot(212)
 plt.xlabel("eje X")
 plt.ylabel("eje y") 
 plt.legend(['Coseno'])
 plt.title("Funcion coseno") 
-plt.plot(x_2,y_2,'*')
+plt.plot(x_2,y_2)
 
 
 plt.show()
