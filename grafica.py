@@ -16,7 +16,7 @@ for j in range(len(x_2)):
     y_2[j] = math.cos(x_2[j])
 
 #creacion de graficos
-plt.title("Funcion seno") 
+plt.title("Funcion seno y coseno") 
 
 plt.xlabel("eje X")
 plt.ylabel("eje y") 
