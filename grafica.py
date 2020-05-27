@@ -10,6 +10,8 @@ for i in range(len(x)):
     y[i] = math.sin(x[i])
 
 #creacion de graficos
+plt.title("Funcion seno") 
+
 plt.xlabel("eje X")
 plt.ylabel("eje y")
 
