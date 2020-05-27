@@ -10,6 +10,9 @@ for i in range(len(x)):
     y[i] = math.sin(x[i])
 
 #creacion de graficos
+plt.xlabel("eje X")
+plt.ylabel("eje y")
 
 plt.plot(x, y)
 plt.show()
+
